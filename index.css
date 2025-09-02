@@ -1,0 +1,195 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(background.png);
+    color: white;
+    display: flow-root;
+    ;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 100px 0px 50px;
+    height: 70px
+    
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: orange;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    color: black;
+}
+.icons :hover{
+    color:beige;
+    font-size: 30px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    font-weight: 600;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    margin-top: 10px;
+   
+}
+.left{
+    display:flex;
+    padding-left:170px;
+    flex-direction: column;
+    align-items:start;
+    
+}
+.left1{
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.left2{
+    font-size: 70px;
+    font-weight: 700;
+}
+.left3{
+    color: orange;
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+.left4{
+    border: 2px solid orange;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.left4:hover{
+    color:orange;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+#food{
+    background: url(food.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+.food{
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+#food1,#food2,#food3,#food4{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+.items{
+    display:flex;
+    padding-left: 150px;
+}
+
+#food1{
+    background: url(food1.png);
+    background-size: cover;
+}
+#food2{
+    background: url(food2.png);
+    background-size: cover;
+}
+#food3{
+    background: url(food.png);
+    background-size: cover;
+}
+#food4{
+    background: url(food3.jpg);
+    background-size: cover;
+}
+#food1:hover,#food2:hover,#food3:hover,#food4:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
+}
+#food1 p,#food2 p,#food3 p,#food4 p{
+    display:none;
+    padding-top: 150px;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+}
+#food1:hover p,#food2:hover p,#food3:hover p,#food4:hover p{
+    display: block;
+    transition: 0.2s;;
+    
+}
+.li a{
+    color: orange;
+}
+.li :hover{
+    color: white;
+    font-size: 25px;
+
+    }
+
+.lf{
+    color: white;
+    font-style: italic;
+    border: none;
+}
+h{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    padding:0px 100px 30px 50px;
+
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-right: 10px;
+    justify-self: space-between;
+    gap: 70px;
+    color: orange;
+}
+.contact a:hover{
+    color: white;
+    font-size: 60px;
+    ;
+
+}
+footer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color:orange;
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+header{
+    background-color: rgb(106, 98, 73);
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(219, 202, 185, 0.997);
+    font-style:italic
+
+}
